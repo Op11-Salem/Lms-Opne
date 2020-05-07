@@ -1,0 +1,56 @@
+﻿.navbar-default{
+    background-color: #0c5c82;
+    border-color: #e7e7e7;
+    height: 70px;
+    padding-top: 10px;
+}
+.navbar-defautl .navbar-nav>li>a{
+    color: #e7e7e7;
+}
+.navbar-defautl .navbar-nav>li>a:hover{
+    color: #fff;
+}
+.nav>li{
+    position: relative;
+    display: block;
+    height: 75px;
+    padding-top: 10px;
+}
+.myfooter{
+    background-color: cornflowerblue;
+    padding: 10px;
+    text-align: justify;
+}
+.subfooter{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.myfooter a{
+    color: azure;
+}
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
